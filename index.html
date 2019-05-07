@@ -15,6 +15,7 @@
 
   <!-- Custom styles for this template -->
   <link href="css/scrolling-nav.css" rel="stylesheet">
+  <link href="css/custom-style.css" rel="stylesheet">
 
 </head>
 
@@ -49,8 +50,8 @@
 
   <header class="bg-primary text-white">
     <div class="container text-center">
-      <h1>Welcome to Scrolling Nav</h1>
-      <p class="lead">A landing page template freshly redesigned for Bootstrap 4</p>
+      <h1>MOBO <small>мобилно счетоводство</small></h1>
+      <p class="lead">Счетоводна услуга от ново поколение</p>
     </div>
   </header>
 
@@ -58,15 +59,18 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2>About this page</h2>
-          <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so
-            you can use it as a boilerplate or starting point for you own landing page designs! This template features:
+          <h2>Кои сме ние...</h2>
+          <p class="lead">Счетоводна къща Христоскова-Добарова предлага счетоводна услуга <b>MOBO</b>.
+            С услугата мобилно счетоводство не губите време в разнасяне на документи.
+            Включва цялостно счетоводство, доставка на документи от и до работното ви място, както
+            и всички държавни институции. С опит над 20 години във всички търговски сфери.
           </p>
           <ul>
-            <li>Clickable nav links that smooth scroll to page sections</li>
-            <li>Responsive behavior when clicking nav links perfect for a one page website</li>
-            <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar</li>
-            <li>Minimal custom CSS so you are free to explore your own unique design options</li>
+            <li>производство</li>
+            <li>търговия</li>
+            <li>хазард</li>
+            <li>логистика</li>
+            <li>и др.</li>
           </ul>
         </div>
       </div>
@@ -77,10 +81,22 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2>Services we offer</h2>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita
-            quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore
-            ut velit dignissimos.</p>
+          <h2>Какво предлагаме</h2>
+          <p class="lead">Предлагаме пълна гама от счетоводни услуги, с допълнение лично отношение и гъвкавост.
+            Имаме директен опит с фирми занимаващи се с производство на колбаси, еврофутбол, автосервизни услуги,
+            хранителни магазини, производство на алуминиева дограма и много други.
+          </p>
+          <ul>
+            <li>Годишно счетоводно приключване</li>
+            <li>Публикуване на годишен финансов отчет в търговски регистър</li>
+            <li>Осчетоводяване на складово стопанство</li>
+            <li>Интернет банкиране </li>
+            <li>Събиране на документи от офис / обект на клиент</li>
+            <li>ТРЗ</li>
+            <li>ViS – декларации</li>
+            <li>ВОП от ЕС</li>
+            <li>изпращане на работници на работа в ЕС с А-1</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -90,16 +106,223 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2>Contact us</h2>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor,
-            provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa
-            exercitationem, in, quo totam.</p>
+          <h2>Цени</h2>
+          <!-- Accordion starting here -->
+          <div class="accordion" id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    Фирми регистрирани по ЗДДС
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                  <!-- Tabs starting here -->
+                  <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                      <a class="nav-link" id="docs30-tab" data-toggle="tab" href="#docs30" role="tab"
+                        aria-controls="30docs" aria-selected="false">До 30 документа</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="docs80-tab" data-toggle="tab" href="#docs80" role="tab"
+                        aria-controls="30docs" aria-selected="false">от 31 до 80</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="docs120-tab" data-toggle="tab" href="#docs120" role="tab"
+                        aria-controls="120docs" aria-selected="false">от 81 до 120</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="docs160-tab" data-toggle="tab" href="#docs160" role="tab"
+                        aria-controls="160docs" aria-selected="false">от 121 до 160</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="above160docs-tab" data-toggle="tab" href="#above160docs" role="tab"
+                        aria-controls="above160docs" aria-selected="false">над 160</a>
+                    </li>
+                  </ul>
+                  <!-- Tabs content starting here -->
+                  <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade" id="docs30" role="tabpanel" aria-labelledby="docs30-tab">
+                      <table class="table table-striped">
+                        <tbody>
+                          <tr>
+                            <th scope="row active">дейност услуги</th>
+                            <td>120 лв.</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">дейност търговия</th>
+                            <td>130 лв.</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">дейност производство</th>
+                            <td>220 лв</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="tab-pane fade" id="docs80" role="tabpanel" aria-labelledby="docs80-tab">
+                      <table class="table table-striped">
+                        <tbody>
+                          <tr>
+                            <th scope="row">дейност услуги</th>
+                            <td>170 лв.</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">дейност търговия</th>
+                            <td>170 лв.</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">дейност производство</th>
+                            <td>280 лв</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="tab-pane fade" id="docs120" role="tabpanel" aria-labelledby="docs120-tab">
+                      <table class="table table-striped">
+                        <tbody>
+                          <tr>
+                            <th scope="row">дейност услуги</th>
+                            <td>220 лв.</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">дейност търговия</th>
+                            <td>220 лв.</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">дейност производство</th>
+                            <td>350 лв</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="tab-pane fade" id="docs160" role="tabpanel" aria-labelledby="docs160-tab">
+                      <table class="table table-striped">
+                        <tbody>
+                          <tr>
+                            <th scope="row">дейност услуги</th>
+                            <td>280 лв.</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">дейност търговия</th>
+                            <td>300 лв.</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">дейност производство</th>
+                            <td>400 лв</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="tab-pane fade" id="above160docs" role="tabpanel" aria-labelledby="above160docs-tab">
+                      по договаряне
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                    aria-expanded="false" aria-controls="collapseTwo">
+                    Фирми без регистрирация по ЗДДС
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                  <!-- Tabs starting here -->
+                  <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                      <a class="nav-link" id="docs30no-tab" data-toggle="tab" href="#docs30no" role="tab"
+                        aria-controls="docs30no" aria-selected="false">До 30 документа</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="docs60no-tab" data-toggle="tab" href="#docs60no" role="tab"
+                        aria-controls="docs60no" aria-selected="false">от 31 до 80</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="docs100no-tab" data-toggle="tab" href="#docs100no" role="tab"
+                        aria-controls="docs100no" aria-selected="false">от 81 до 120</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" id="above100no-tab" data-toggle="tab" href="#above100no" role="tab"
+                        aria-controls="above100no" aria-selected="false">от 121 до 160</a>
+                    </li>
+                  </ul>
+                  <!-- Tabs content starting here -->
+                  <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade" id="docs30no" role="tabpanel" aria-labelledby="docs30no-tab">
+                      <table class="table table-striped">
+                        <tbody>
+                          <tr>
+                            <th scope="row">дейност услуги</th>
+                            <td>40 лв.</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">дейност търговия</th>
+                            <td>50 лв.</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">дейност производство</th>
+                            <td>70 лв</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="tab-pane fade" id="docs60no" role="tabpanel" aria-labelledby="docs60no-tab">
+                      <table class="table table-striped">
+                        <tbody>
+                          <tr>
+                            <th scope="row">дейност услуги</th>
+                            <td>70 лв.</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">дейност търговия</th>
+                            <td>80 лв.</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">дейност производство</th>
+                            <td>100 лв</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="tab-pane fade" id="docs100no" role="tabpanel" aria-labelledby="docs100no-tab">
+                      <table class="table table-striped">
+                        <tbody>
+                          <tr>
+                            <th scope="row">дейност услуги</th>
+                            <td>110 лв.</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">дейност търговия</th>
+                            <td>120 лв.</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">дейност производство</th>
+                            <td>140 лв</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="tab-pane fade" id="above100no" role="tabpanel" aria-labelledby="above100no-tab">
+                      по договаряне
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
   </section>
 
-  <section id="contact">
+  <section>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
@@ -115,7 +338,21 @@
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+      <div class="row">
+        <div class="span3">
+          <div class="widget color-override">
+            <h5 class="widgetheading">Свържете се с нас</h5>
+            <address>
+              <strong>Ние сме там,</strong><br>
+              където сте вие<br>
+            </address>
+            <p>
+              0896 76 09 73 <br>
+              radoslavahristoskova@abv.bg
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- /.container -->
   </footer>
